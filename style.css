@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.food-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.food-item {
+    margin: 20px;
+}
+
+.food-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+}
+
+.product-details {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.product-info {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product-info img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="submit"] {
+    margin: 10px 0;
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
